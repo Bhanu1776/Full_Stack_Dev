@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML ENTITIES</title>
+</head>
+<body>
+    <div class= "container">
+        <p>This is a paragraph</p>
+    </div>
+    <div class= "container">
+        <p>This is a             paragraph</p>  <!-- The spaces wont be encounterd by HTML.. Html assumes all spaces as a single space-->
+    </div>
+
+    <!--* Entities -->
+    <div class= "container">
+        <p>This is a &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;            paragraph</p> <!-- nbsp == nonbreaking space .. It is used to give an extra space --> 
+        <p>Paragraph is written like this &lt;p&gt;</p>     <!-- &lt is used for less than (<) And &gt is used for greater than (>)-->
+                                                            <!-- We can't write like this <p> .. Reserved notations encountered by Html -->
+        <p>Pound is written like this &pound;</p>                                                                 
+        <p>Copyright is written like this &copy;</p>                                                                 
+        <p>Empty character is written like this &#8709;</p>
+        <!-- Useful website to get all entites for refrence, https://dev.w3.org/html5/html-author/charref -->
+    </div>
+        
+</body>
+</html>
