@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    
+    <style> 
+        p{                                      /* An example of Element selector*/
+            border: 2px solid cyan;
+        }
+        #FirstPara{                             /* An example of ID selector*/
+            color: red; 
+        }
+        .SecondPara{                            /* An example of Class selector*/
+            background-color: lightgray;
+        }
+        footer, span{                           /* An example of Grouping selector*/
+            color: red;
+            background-color: yellow;
+        }
+        </style>
+</head>
+<body>
+   <h3>Examples of CSS Selectors</h3> 
+   <p id="FirstPara"> This is the first paragraph </p>
+   <p class="SecondPara"> This is the second paragraph </p>
+   <div>
+   <p> This is the third paragraph </p>
+   </div>
+
+   <span>This is a span, An Example of Grouping selector</span>
+   <footer>This is a footer, An Example of Grouping selector</footer>
+
+</body>
+</html>
