@@ -1,0 +1,4 @@
+p{
+    color: cyan;
+    background-color: darkgoldenrod !important;         /* Important keyword is used for highest precedence */
+}
