@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height, weight, borders and backgrounds</title>
+    
+    <style>
+
+        #first{
+            color: red;
+            background-color: lightgray;
+            height: 50px;
+            width: 300px;
+            border: 3px solid blue;
+            /* border-width: 4px;
+            border-color: blue;
+            border-style: solid; */
+            border-radius: 15px;
+        }
+        #second{
+            color: blue;
+            background-color: lightcoral;
+            height: 50px;
+            width: 300px;
+            border-top: 4px solid yellowgreen;
+            border-right: 4px solid darkcyan;
+            border-left: 4px solid darkgoldenrod;
+            border-bottom: 4px solid darkmagenta;
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+            border-top-left-radius: 15px;
+        }
+        #third{
+            height: 500px;
+            width: 512px;
+            background-image: url('https://cdn-icons-png.flaticon.com/512/6259/6259201.png');
+            border: 3px solid darkcyan;
+            background-repeat: no-repeat;           /* If we include no repeat the images will not display recursively */
+            background-position: center right;        /* y=center or top or bottom and x=right or left*/
+            /* background-position: 122px 143px;       With the help of pixel values can set image position */
+
+        }
+    </style>
+</head>
+<body>
+    <h4> Modifications </h4>    
+    <p id="first"> This is the first paragraph </p>
+    <p id="second"> This is the second paragraph </p>
+    <p id="third"> This is the third paragraph </p>
+</body>
+</html>
