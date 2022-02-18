@@ -112,3 +112,5 @@ git rebase -i 'commit code form git log'
 # i is interactive environment
 ______________________________________________________________________________________________________________________
 
+## To fix username and password thing while pushing ..
+git remote set-url origin 'ssh url of desired repo'
