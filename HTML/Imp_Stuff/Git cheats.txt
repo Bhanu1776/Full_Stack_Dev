@@ -1,0 +1,114 @@
+git restore --staged bunny.txt
+# This will remove bunny.txt from stagged area
+
+git log
+# To check the history of all files
+
+git reset 'Commit code from git log'
+#! Don't use single quote in the above cmd
+# This cmd will simply restore all the commits made above the specified commit..
+# This can be used when we actually deleted file and we want them back, in that stage we can restore the deleted commit and that file will be in unstashing area ..
+
+## TO undo last commit
+git reset HEAD~
+# Now the head will point to previous commit
+# And the modified file be in unstaging area .. we can simply restore changes by -> git restore bunny.txt
+
+git commit --amend
+# This will allow me to change my previous commit
+
+______________________________________________________________________________________________________________________
+
+### stashing changes:
+# 1) Suppose If I don't want to commit any changes neither I want to loose these changes, that time I can push the changes in the backstage and can retain whenever I want ..
+# Do note that files has to be in staged area ..
+# 2) By using stashing we can also go back to my previous commits ( Indirectly I can restore my previous changes ..)
+
+git stash
+# This cmd will push all the changs in backstage ..
+
+git stash pop
+# This cmd will pull all the changs back to stagged area ..
+
+git stash clear
+# Now all the changes which were present in backstage will be cleared
+
+_______________________________________________________________________________________________________________________
+
+git remote add origin 'https link of that repository'
+#! please ignore single quotes
+# To connect specific repository to currently working project
+
+git remote -v
+# This will show the list of repositories connected with my currently working folder ..
+
+git push origin master
+# This cmd will push all my changes(commits)(Files) to my GitHub repository
+
+______________________________________________________________________________________________________________________
+
+git branch features
+# Now this cmd will create a new branch named as 'features'
+# --> And head is the pointer which points on the working branch
+## While contributing to any open-source projects, Do create a seperate branch wich will not make changes in main(master) branch, unless admin pulls those changes from your branch
+
+git branch -M main
+# This cmd is used to set a default branch ... In this case main branch is set
+
+git branch --show-current
+# To check the defualt branch ..
+
+git checkout features
+# checkout is used to switch between the branches ..
+# Now if we make any commits that is going to be linked with features branch ..
+
+______________________________________________________________________________________________________________________
+
+git merge features      ... merging happens with pull requests
+# This cmd will merge features branch with main branch i.e all the changes made in feature branch will now be linked with main branch so that now users can see my features in open-source repository
+
+## We can't actually make changes in anyones git repository, so for that we need to fork that repository from git and make changes
+# fork means copying someones exact project to our profile and making changes to it ..
+
+# If we wanna contribute to any open-source project, first we need to fork that repo and make sepearte branches for multiple changes(commits) and then raise a pull request to that open-source project
+
+git clone 'https link of that repo'
+#! As usual ignore single quotes
+# cloning means downloading any project(repo) present in github
+
+git remote add upstream 'hhtps link of that forked repository'
+# This means now we are connected our project to forked repo .. (In this case the URL will not be my profile repo, It'll be the original creator's repo)
+
+# To make changes in any pull requests we need to force push if we want to publish into git.
+git push origin features -f
+
+# To remove git upstream from any folder
+git remote rm upstream
+______________________________________________________________________________________________________________________
+
+## Making forked project even with original project ..
+# There are two ways
+
+1)
+git fetch --all --prune
+# This command will merge all the commits that were made for open-source project to our forked repo
+# prune means it will includes deleted commits while fetching..
+
+
+2)
+git reset --hard upstream/main
+
+3)
+git pull upstream
+# These three commands will do same i.e merging all the latest changes done on original branch to our fork repo ..
+## The easiest way would be fetching upstream from github website itself .. The button will appear below to code(green) button
+
+______________________________________________________________________________________________________________________
+
+## Squashing commits
+# This means If I want to merge set of commits into a single commit then we can use 'rebase' cmd
+
+git rebase -i 'commit code form git log'
+# i is interactive environment
+______________________________________________________________________________________________________________________
+
