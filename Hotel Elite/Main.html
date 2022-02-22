@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ozone Fitness </title>
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css'>
+
+<style>
+    /* CSS RESET */
+    body{
+        /* background-color: rgb(255, 255, 255); */
+        background-color: #000000;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .background-img{
+        position: relative;
+
+        margin-top: 99px;
+        margin-left: 50px;
+        margin-right: 50px;
+
+        padding: 0px;
+        height: 597px;
+        width: 1400px;
+        border-radius: 25px;
+
+        background-position: center;
+        background-image: url('Bgimage.png');
+        background-size: 1800px 600px;
+        background-repeat: no-repeat;
+        border: 5px solid rgba(19, 19, 19, 0.288);
+    }
+
+    #First{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 51px;
+        font-family: 'Ubuntu', sans-serif;
+
+        top: 98px;
+        left: 112px;
+
+    }
+
+    #Second{
+        position: absolute;
+        text-align: justify;
+        color: #ffffff81;
+        font-size: 13px;
+        font-family: 'Gideon Roman', cursive;
+        top: 116px;
+        left: 115px;
+    }
+
+    #Third{
+        position: absolute;
+        text-align: justify;
+        color: #ffffffad;;
+        font-size: 14px;
+        font-family: 'Gideon Roman', cursive;
+        top: 203px;
+        left: 115px;
+    }
+
+    .navbar{
+        background-color: #ffffff;
+        height: 57px;
+        width: 1020px;
+        border-radius: 30px;
+        position: absolute;
+        top: 15px;
+        left: 260px;
+        
+    }
+    .navbar ul{
+        overflow: auto;
+    }
+    .navbar li{
+        font-weight: bold;
+        font-size: 18px;
+        font-family: 'Ubuntu', sans-serif;
+        float:left;
+        list-style: none;
+        /* margin: 1px 70px; */
+        margin: 3px 20px;
+
+    }
+    .navbar li a{
+        padding: 3px 65px;
+        text-decoration: none;
+        color: #000000;
+    }
+    .navbar li a:hover{
+        color: rgb(105, 105, 105)
+    }
+    .navbar li a:active {
+        text-decoration: underline;
+        color: #000000;
+    }
+
+    .btn{
+        position: absolute;
+        font-size: 20px;
+        border-radius: 32px;
+        margin: -8px 9px;
+        padding: 19px 20px;
+        cursor: pointer;
+        color: white;
+        background-color: rgb(255, 0, 149);
+        border: 2px solid rgb(255, 0, 149);
+    }
+
+    i{
+        position: absolute;
+        padding-left: 20px;
+        margin: 4px 3px;
+        filter: invert(100%);
+    }
+
+    /* .navbar p{
+        position: absolute;
+        float:left;
+        border: 3px solid darkcyan;
+        padding: 10px;
+    } */
+
+    .navbar img {
+        position: absolute;
+        float: left;
+        width: 40px;
+        left: 26px;
+        margin-top: -26px;
+    }
+
+</style>
+<body>
+    <div class="background-img">
+        <p id="First">HOTEL ELITE</p>
+        <p id="Second">Best portal for hotel, vendor discovery and Booking</p>
+        <p id="Third">We are an Online Platform that helps users to find <br> the perfect venues and professional service providers <br> for their events ..</p>
+    </div>
+    
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">About us</a></li>
+                <Button class="btn"></Button>
+                <i class="fi fi-bs-search"></i>
+                <p class="icon"></p>
+                <img src="hotel.png" alt="Icon">
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
