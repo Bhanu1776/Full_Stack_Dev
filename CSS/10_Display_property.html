@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Display property</title>
+
+    <style> 
+
+        *{
+            box-sizing: border-box;
+        }
+
+        header {
+            border: 2px solid red;
+            margin: auto;
+            width: 1200px;
+        }
+
+        img {
+            margin: auto;
+            display: block;                     /* By using display block we can convert any inline element into block element */
+            width: 34px;                        /* But display inline is not recommended. Instead of display inline we can use display inline-block */
+        }
+
+        h3 {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0px;
+        }
+
+        .box {
+            border: 4px solid black;
+            background-color: grey;
+            margin: 4px 0px;
+            padding: 23px;
+            width: 33%;
+            box-sizing: border-box;
+            display: inline-block;              /* Display inline-block property converts any block element into inline elements with proper alignments */
+        }
+
+        .container{
+            margin: auto;
+            width: 1200px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="top">                        <!-- Header is by default an block element, that means it takes the whole block space -->
+        <img src="https://codewithharry.com/static/common/img/photo.png" alt="">            <!-- Img is an inline element, that means this will take the required space acc to image -->
+        <h3>Welcome to Bunny's Blog</h3>
+    </header>
+    
+    <div class="container">
+
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, harum ipsam aliquid deleniti, vitae
+                labore cum laudantium a blanditiis est voluptates dolorum consequuntur. Aliquam corporis, fuga
+                consectetur rerum molestias consequatur tempora natus sed laborum recusandae fugit harum soluta
+                inventore enim. Aspernatur aperiam cum reprehenderit!</p>
+        </div>
+
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, harum ipsam aliquid deleniti, vitae
+                labore cum laudantium a blanditiis est voluptates dolorum consequuntur. Aliquam corporis, fuga
+                consectetur rerum molestias consequatur tempora natus sed laborum recusandae fugit harum soluta
+                inventore enim. Aspernatur aperiam cum reprehenderit!</p>
+        </div>
+
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, harum ipsam aliquid deleniti, vitae
+                labore cum laudantium a blanditiis est voluptates dolorum consequuntur. Aliquam corporis, fuga
+                consectetur rerum molestias consequatur tempora natus sed laborum recusandae fugit harum soluta
+                inventore enim. Aspernatur aperiam cum reprehenderit!</p>
+        </div>
+
+    </div>
+</body>
+</html>
