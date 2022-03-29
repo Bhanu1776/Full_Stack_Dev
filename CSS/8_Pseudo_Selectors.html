@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Pseudo selectors & more designing </title>
+
+    <style>
+
+        .container{
+            border: 2px solid red;
+            background-color: rgb(223, 245, 201);
+            padding: 34px;
+            margin: 34px auto;
+            width: 666px;
+        }
+
+        /* These all are types of pseudo selectors  */
+
+        a{                                      /* a is an href hypertext link */
+            text-decoration: none;              /* Text-decorations will be ignored like underline will be removed etc*/
+            color: black;
+        }
+
+        a:hover{                                /* Hover: When we point cursor to any element that time performed actions are known as hover */
+            color: rgb(5, 0, 0);
+            background-color: rgb(221, 166, 38);
+        }
+
+        a:visited{                              /* Once we visited to specified link then mentioned actions will perform */
+            background-color: yellow;
+        }
+
+        a:active{                               /* Active is basically when we click on any element that time mentioned actions will perform */
+            background-color:darkblue;
+        }
+
+        .btn{                                   /* Button Modifications */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            background-color: crimson;
+            padding:6px;
+            border: none;
+            cursor:pointer;                     /* If we mention pointer the cursor will point like a link, although looks good*/
+            font-size: 13px;
+            border-radius: 4px;
+        }
+
+        .btn:hover{
+            color:darkgoldenrod;
+            background-color:rgb(223, 245, 201);
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container" id="cont1">
+
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, reprehenderit. Quam culpa eius aliquam id cumque saepe, provident odio sed eos quia nihil modi error voluptate vero autem quibusdam aperiam exercitationem! Quam, consequuntur velit.</p>
+
+        <a href="https://yahoo.com" class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+    </div>
+</body>
+</html>
+
+<!--* To know all Interesting pseudo selectors in css visit ==> https://www.w3schools.com/css/css_pseudo_classes.asp  -->
