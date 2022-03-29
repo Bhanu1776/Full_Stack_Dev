@@ -1,0 +1,8 @@
+* If we want to adjust anything in center, Three conditions has to be satisfied 
+1) display: block
+2) width has to be something 
+3) and margin has to be auto in x-axis
+
+First thing border any element first so that we can identify element properly and avoid overlapping
+Then the next step would be adjust the element via padding and margin
+Then design accordingly
