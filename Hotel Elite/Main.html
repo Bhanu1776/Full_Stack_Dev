@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,24 +16,28 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
 <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css'>
 
 <style>
     /* CSS RESET */
-    body{
+    body {
         /* background-color: rgb(255, 255, 255); */
-        background-color: #000000;
+        background-color: #232323;
         margin: 0px;
         padding: 0px;
     }
 
-    .background-img{
+    .background-img {
         position: relative;
 
         margin-top: 99px;
         /* margin-left: 50px; */
         margin-left: 78px;
-        
+
         height: 597px;
         /* width: 1400px; */
         width: 1335px;
@@ -45,92 +50,101 @@
         border: 5px solid rgba(19, 19, 19, 0.288);
     }
 
-    #First{
+    #First {
         position: absolute;
         color: white;
         font-weight: bold;
-        font-size: 51px;
+        font-size: 61px;
         font-family: 'Ubuntu', sans-serif;
-
         top: 98px;
         left: 112px;
 
     }
 
-    #Second{
+    #Second {
         position: absolute;
         text-align: justify;
         color: #ffffff81;
-        font-size: 13px;
+        font-size: 16px;
         font-family: 'Gideon Roman', cursive;
-        top: 116px;
+        top: 122px;
         left: 115px;
     }
 
-    #Third{
+    #Third {
         position: absolute;
         text-align: justify;
-        color: #ffffffad;;
-        font-size: 14px;
+        color: #ffffffad;
+        font-size: 16px;
         font-family: 'Gideon Roman', cursive;
-        top: 203px;
+        top: 216px;
         left: 115px;
     }
 
-    .navbar{
-        background-color: #ffffff;
-        height: 57px;
-        width: 1020px;
-        border-radius: 30px;
+    .navbar {
+        background-color: rgb(255 255 255 / 66%);
+        height: 48px;
+        width: 1347px;
+        border-radius: 17px;
         position: absolute;
-        top: 15px;
-        left: 260px;
-        
+        top: 23px;
+        left: 81px;
+
     }
-    .navbar ul{
+
+    .navbar ul {
         overflow: auto;
     }
-    .navbar li{
+
+    a {
+        padding: 10px;
+    }
+
+    .navbar li {
         font-weight: bold;
         font-size: 18px;
         font-family: 'Ubuntu', sans-serif;
-        float:left;
+        /* font-family: 'Raleway', sans-serif; */
+        float: left;
         list-style: none;
         /* margin: 1px 70px; */
-        margin: 3px 20px;
+        margin: 2px 20px;
 
     }
-    .navbar li a{
-        padding: 3px 65px;
+
+    .navbar li a {
+        padding: 3px 25px;
         text-decoration: none;
         color: #000000;
     }
-    .navbar li a:hover{
+
+    .navbar li a:hover {
         color: rgb(105, 105, 105)
     }
+
     .navbar li a:active {
         text-decoration: underline;
         color: #000000;
     }
 
-    .btn{
+    .btn {
         position: absolute;
         font-size: 20px;
-        border-radius: 32px;
-        margin: -11px 9px;
-        padding: 22px 23px; 
+        border-radius: 20px;
+        margin: -14px 647px;
+        padding: 19px 23px;
         cursor: pointer;
         color: white;
         background-color: rgb(255, 0, 149);
         border: 2px solid rgb(255, 0, 149);
     }
 
-    i{
+    i {
         position: absolute;
         padding-left: 20px;
-        margin: 5px 6px;
+        margin: -1px 643px;
         filter: invert(100%);
-        
+
     }
 
     /* .navbar p{
@@ -147,19 +161,21 @@
         left: 26px;
         margin-top: -26px;
     }
-
 </style>
+
 <body>
     <div class="background-img">
         <p id="First">HOTEL ELITE</p>
         <p id="Second">Best portal for hotel, vendor discovery and Booking</p>
-        <p id="Third">We are an Online Platform that helps users to find <br> the perfect Hotels with best user Experience ..</p>
+        <p id="Third">We are an Online Platform that helps users to find <br> the perfect Hotels with best user
+            Experience ..</p>
     </div>
-    
+
     <header>
         <nav class="navbar">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="#" padding-bottom: 0px;padding-top: 0px;padding-left: 50px;border-top-width:
+                        2px;margin-left: 0px;margin-bottom: 0px;>Home</a></li>
                 <li><a href="#">Login</a></li>
                 <li><a href="#">Hotels</a></li>
                 <li><a href="#">About us</a></li>
@@ -171,4 +187,5 @@
         </nav>
     </header>
 </body>
+
 </html>

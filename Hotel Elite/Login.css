@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=inter:wght@100&display=swap');
+
+
+::selection {
+    background: #a1944b;
+  }
+  
+  body {
+    background: #6aa4aa;
+    font-family: 'inter ui', sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  .page {
+    background: #6aa4aa;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 40px);
+    position: absolute;
+    place-content: center;
+    width: calc(100% - 40px);
+  }
+
+  .container {
+    display: flex;
+    height: 343px;
+    margin: 0 auto;
+    width: 694px;
+  }
+
+  .left {
+    background: white;
+    height: calc(100% - 40px);
+    top: 20px;
+    position: relative;
+    width: 50%;
+  }
+
+  .login {
+    color: #39768f;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 50px 40px 40px;
+  }
+  .msg {
+    color: #828282;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 40px;
+  }
+  .right {
+    background: #070D0D;
+    box-shadow: -20px 0px 34px -10px rgba(0,0,0,0.75);
+    color: #F1F1F2;
+    position: relative;
+    width: 50%;
+  }
+
+ svg {
+    position: absolute;
+    width: 320px;
+  }
+  path {
+    fill: none;
+    stroke: url(#linearGradient);;
+    stroke-width: 4;
+    stroke-dasharray: 240 1386;
+  }
+  .form {
+    margin: 40px;
+    position: absolute;
+  }
+  label {
+    color:  #c2c2c5;
+    display: block;
+    font-size: 14px;
+    height: 16px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  input {
+    background: transparent;
+    border: 1px solid #c7fffa;
+    border-radius:  25px;
+    color: #47ffff;
+    font-size: 17px;
+    height: 30px;
+    line-height: 30px;
+    outline: none !important;
+    width: 100%;
+  }
+  
+  
+  #submit {
+    color: #8cf7f7;
+    width: 100%;
+    height:  35px;
+    background: #070D0D;
+    border: 1px solid #c7fffa;
+    border-radius:  25px;
+    margin-top: 40px;
+    transition: color 1s ease-out;
+    cursor: pointer;
+    }
+  #submit:hover{
+    color: #b5c5f1;
+  }
+  #submit:active {
+    color: #d0d0d2;
+  }
+  a{
+    color: #c3d5d6;
+    display: block;
+    font-size: 14px;
+    margin-top: 19px;
+    margin-left: 61px;
+    font-family: 'Ubuntu', sans-serif;
+  }
