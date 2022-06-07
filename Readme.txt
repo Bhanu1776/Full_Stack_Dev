@@ -49,6 +49,10 @@ https://thenounproject.com/
 https://www.iconfinder.com/
 https://freeicons.io/
 https://icons8.com/
+https://heroicons.com/
+https://css.gg/
+https://remixicon.com/
+https://akveo.github.io/eva-icons/#/
 https://www.instagram.com/p/CKmHESpDcUu/?utm_medium=copy_link (More websites)
 **Animated ones**
 https://lordicon.com/
@@ -98,6 +102,8 @@ https://www.bestcssbuttongenerator.com/
 
 Gradient color generator
 https://www.gradientmagic.com/
+https://products.ls.graphics/mesh-gradients/
+https://www.meshgradients.com/
 https://products.ls.graphics/mesh-gradients/
 
 CSS shape divide (Useful)
