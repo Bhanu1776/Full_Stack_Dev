@@ -81,6 +81,10 @@ https://favpng.com/
 https://www.cleanpng.com/
 https://stickpng.com/
 https://pngtree.com/
+https://burst.shopify.com/
+https://www.pexels.com/
+https://pixabay.com/
+https://negativespace.photoshelter.com/index
 
 Design templates
 https://uigarage.net/search/?_sft_platform=web
