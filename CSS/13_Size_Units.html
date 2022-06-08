@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Size Units</title>
+    
+    <style>
+        * { box-sizing: border-box; }
+        
+        *:focus { outline: 2px solid red; } 
+        
+        .html{
+            font-size: 10px;                    /*This font size is going to used by whole website */
+        }
+        .container{
+            font-size: 20px;
+            text-align: center;
+            border: 2px solid red;
+            height: 600px;                      /*Bad way to adjust height according to screen, with the help of 100% wont adjust for fullscreen, So Best way is to use 'vh'*/
+            width: 100%;                        /*Better way only for width to use percentage rather than using px to adjust for fullscreen*/
+            height: 100vh;                      /* <!--* Best way to adjust height for fullscreen */
+            width: 100vw;                       /* vh = viewport height, vw = viewport width, Automatically adapts according to the browser*/
+        }
+        #First{                                 
+            font-size: 3em;                     /* 'em' is adapted from parent class, In this case Container.. i.e 3 times of parent class(20px * 3 == 60px)*/
+            padding: 2em;                       /* Here, the padding is adapted from child class itself i.e from font-size soo (60px of child class * 2 == 120px of padding)*/
+        }
+        #Second{
+            font-size: 2rem;                    /* 'rem' usually adapts from root i.e html default fontsize, In this case html font size is 10px soo (10px * 2 == 20px font size)*/
+        }
+    </style>
+</head>
+
+<body>
+    <h3 style=" font-size: 2rem; color:blueviolet; text-align: center;">All about (rem, em) and (vh, vw)</h3>
+    <div class="container">
+        <div id="First">This is First Heading</div>
+        <div id="Second">This is Second Heading</div>
+        <div id="Third">This is Third Heading</div>
+    </div>
+</body>
+</html>
