@@ -42,6 +42,9 @@ Crazy Useful GitHub Repository's for Software Development ..
 Awesome websites for web developers
 https://www.instagram.com/p/CZ4bhY4A2ei/?utm_medium=copy_link
 
+Very Useful Toolkit For Emmet
+https://github.com/emmetio/emmet
+
 ## Resources
 
 For icons other than flaticons
