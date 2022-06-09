@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Box Shadows and Text Shadows</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            margin: 10px;
+            padding: 17px;
+            background-color:rgb(168, 128, 218);
+            color: black;
+            border-radius: 14px;
+        }
+        .card h1{
+            text-align: center;
+            text-shadow: -2px -1px 4px red, 2px 3px 4px cyan;
+        }
+
+        p{
+            text-align: center;
+        }
+
+        /* <!--* box-shadow ==> offset-x, offset-y, blur-radius, spread-radius, color */
+
+        #card-1{
+            box-shadow: 7px 8px rgb(248, 75, 75);
+        }
+        #card-2{
+            box-shadow: -4px -5px 6px 2px rgb(248, 233, 75);
+        }
+        #card-3{
+            box-shadow: 4px 5px 4px 2px rgb(17, 168, 158);
+        }
+        #card-4{
+            box-shadow: inset 10px 12px 6px rgb(255, 128, 181);               /* Inset apply shadows internally */
+            /* box-shadow: 3px 5px green, 7px 8px red;                          In this way we can add multiple shadows with different colors */
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+           <h1>Bhanu</h1> 
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium harum eum enim debitis nulla animi temporibus autem est rerum recusandae alias cum, veritatis id dolorum neque ea fuga doloribus! Reiciendis, delectus veritatis.</p>
+        </div>
+        <div class="card" id="card-2">
+            <h1>Bunny</h1>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium harum eum enim debitis nulla animi temporibus autem est rerum recusandae alias cum, veritatis id dolorum neque ea fuga doloribus! Reiciendis, delectus veritatis.</p>
+        </div>
+        <div class="card" id="card-3">
+            <h1>Joe</h1>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium harum eum enim debitis nulla animi temporibus autem est rerum recusandae alias cum, veritatis id dolorum neque ea fuga doloribus! Reiciendis, delectus veritatis.</p>
+        </div>
+        <div class="card" id="card-4">
+            <h1>Ross</h1>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium harum eum enim debitis nulla animi temporibus autem est rerum recusandae alias cum, veritatis id dolorum neque ea fuga doloribus! Reiciendis, delectus veritatis.</p>
+        </div>
+    </div>
+</body>
+
+</html>
