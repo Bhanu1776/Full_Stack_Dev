@@ -1,0 +1,80 @@
+/** CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/** Css Variables */
+:root{
+    --primary-color: #E5F64B;                               /* Color Palette for this website */
+    --black-color: #101010;
+    --green-color: #57BE6C;
+    --shady-white-color: #FAFCFE;
+    --white-color: #FFFFFF;
+}
+
+/** Navigation bar */
+.navbar{
+    display: flex;
+    border: 1px solid red;
+    align-items: center;
+    height: 44px;
+}
+#logo{
+    font-size: 2.25rem;
+    margin-left: 40px;
+    font-family: 'Caveat', cursive;
+
+}
+.navbar ul{
+    display: flex;
+    margin: auto;
+}
+.navbar ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    font-size: 1.20rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-family: 'Joan', serif;
+    font-family: 'PT Serif', serif;
+    color: black;
+}
+
+/** Navbar Login Button */
+#ndb{
+    margin-right: 50px;
+}
+.navbar button{
+    width: 93px;
+    height: 32px;
+    border-radius: 8px;
+    color: var(--white-color);
+    box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #000000 5%, #065e2b 100%);
+	background-color:#166D3B;
+	border-radius:px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.navbar button:hover {
+	background:linear-gradient(to bottom, #141717 5%, #a4b323 100%);
+	background-color:#166D3B;
+
+}
+
+
