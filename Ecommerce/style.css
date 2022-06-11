@@ -8,11 +8,12 @@
 
 html{
     scroll-behavior: smooth;
-}
+    /* background: linear-gradient(135deg, #D7E1EC,#ffffff);
+ */}
 
 /** Css Variables */
 :root{
-    --primary-color: #dff236;                               /* Color Palette for this website #E5F64B*/
+    --primary-color: #dded4d;                               /* Color Palette for this website #E5F64B*/
     --black-color: #101010;
     --green-color: #57BE6C;
     --shady-white-color: #FAFCFE;
@@ -22,13 +23,13 @@ html{
 /** Navigation bar */
 .navbar{
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     align-items: center;
     height: 54px;
 }
 #logo{
     font-size: 2.25rem;
-    margin-left: 40px;
+    margin-left: 50px;
     font-family: 'Caveat', cursive;
     display: inline-block;
 }
@@ -39,6 +40,8 @@ html{
 .navbar ul{
     display: flex;
     margin: auto;
+    z-index: 2;
+    background: transparent;
 }
 .navbar ul li{
     list-style: none;
@@ -47,12 +50,14 @@ html{
     justify-content: center;
     margin-right: 50px;
     font-size: 1.20rem;
+    background: transparent;
 }
 .navbar ul li a{
     text-decoration: none;
     font-family: 'PT Serif', serif;
     color: black;
     position: relative;
+    background: transparent;
 }
 .navbar ul li a::after{
     content: '';
@@ -106,12 +111,20 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 555px;
-    margin: 33px 45px;
+    height: 583px;
+    margin: 17px 45px;
     border-radius: 23px;
-    background-color:  var(--primary-color);
+    background-color: var(--primary-color);
     position: relative;
-    
+    /* box-shadow: 0px 0px 10px 2px #c4c8a6 */
+    box-shadow:
+      0px 0px 2.5px -5px rgba(0, 0, 0, 0.019),
+      0px 0px 5.7px -5px rgba(0, 0, 0, 0.032),
+      0px 0px 10.2px -5px rgba(0, 0, 0, 0.044),
+      0px 0px 17.3px -5px rgba(0, 0, 0, 0.058),
+      0px 0px 30.5px -5px rgba(0, 0, 0, 0.075),
+      0px 0px 83px -5px rgba(0, 0, 0, 0.11);
+
 }
 
 #title{
@@ -150,13 +163,14 @@ html{
     user-select: none;
 }
 #himage2{
-    width: 536px;
+    width: 538px;
     background-color: transparent;
     position: absolute;
     display: inline-block;
     margin-right: -1018px;
     z-index: 1;
     user-select: none;
+    margin-top: 42px;
 }
 
 #h-button {
@@ -180,3 +194,15 @@ html{
 #h-button:hover {
 	background-color:#3d413b;
 }
+
+#scrolldown{
+    position: absolute;
+    z-index: 2;
+    display: inline-block;
+    background: transparent;
+    margin-top: 460px;
+    margin-left: -1130px;
+}
+
+
+  
