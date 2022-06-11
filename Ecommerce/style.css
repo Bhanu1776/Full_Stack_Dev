@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-color: var(--shady-white-color);
 }
 
 html{
@@ -11,7 +12,7 @@ html{
 
 /** Css Variables */
 :root{
-    --primary-color: #E5F64B;                               /* Color Palette for this website */
+    --primary-color: #dff236;                               /* Color Palette for this website #E5F64B*/
     --black-color: #101010;
     --green-color: #57BE6C;
     --shady-white-color: #FAFCFE;
@@ -23,7 +24,7 @@ html{
     display: flex;
     border: 1px solid red;
     align-items: center;
-    height: 44px;
+    height: 54px;
 }
 #logo{
     font-size: 2.25rem;
@@ -49,7 +50,6 @@ html{
 }
 .navbar ul li a{
     text-decoration: none;
-    font-family: 'Joan', serif;
     font-family: 'PT Serif', serif;
     color: black;
     position: relative;
@@ -85,7 +85,7 @@ html{
 	cursor:pointer;
     border-radius: 23px;
     color: black;
-    background-color: white;
+    background-color: var(--shady-white-color);
     border: 2px solid black;
     display: inline-block;
     position: relative;
@@ -99,3 +99,84 @@ html{
 }
 
 
+
+/** Home */
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 555px;
+    margin: 33px 45px;
+    border-radius: 23px;
+    background-color:  var(--primary-color);
+    position: relative;
+    
+}
+
+#title{
+    background-color: transparent;
+    font-size: 3.3rem;
+    display: inline-block;
+    position: absolute;
+    margin-right: 800px;
+    margin-top: -200px;
+    z-index: 2;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    line-height: 64px;
+}
+#h-content{
+    background-color: transparent;
+    font-size: 1.1rem;
+    display: inline-block;
+    position: absolute;
+    /* margin-right: 787px; */
+    margin-left: -788px;
+    margin-top: 25px;
+    z-index: 2;
+    font-family: 'Open Sans', sans-serif;
+    width: 450px;
+}
+#himage1{
+    width: 778px;
+    background-color: transparent;
+    position: absolute;
+    display: inline-block;
+    /* margin-left: 355px; */
+    margin-right: -355px;                            /** Important tip: Always adjust margin in opposite direction with negative values to messy marginal space*/
+    z-index: 1;
+    transform: rotate(10deg);
+    user-select: none;
+}
+#himage2{
+    width: 536px;
+    background-color: transparent;
+    position: absolute;
+    display: inline-block;
+    margin-right: -1018px;
+    z-index: 1;
+    user-select: none;
+}
+
+#h-button {
+    background: transparent;
+    display: inline-block;
+    position: absolute;
+    margin-top: 87px;
+    margin-left: -620px;
+    cursor: pointer;
+    z-index: 2;
+    border-radius: 26px;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: 'PT Serif', serif;
+    background-color: #0f0f0f;
+    padding: 16px 28px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #788a32;
+
+}
+#h-button:hover {
+	background-color:#3d413b;
+}
