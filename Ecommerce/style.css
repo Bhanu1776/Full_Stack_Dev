@@ -178,7 +178,7 @@ html{
     background-color: transparent;
     position: absolute;
     display: inline-block;
-    margin-right: -1018px;
+    margin-right: -965px;
     z-index: 1;
     user-select: none;
     margin-top: 42px;
@@ -217,7 +217,6 @@ html{
 
 /** Section */
 .section{
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -227,5 +226,20 @@ html{
     font-size: 2.2rem;
 }
 
-
-  
+/** Containers */
+.container{
+    display: flex;
+    align-items: center;
+    border: 1px solid blue;
+    height: 500px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    height: 200px;
+    margin: 20px;
+    border-radius: 23px;
+}
+ 
