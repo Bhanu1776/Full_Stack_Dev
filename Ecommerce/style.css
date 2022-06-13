@@ -367,6 +367,7 @@ html{
     background-color: #000000;
     color: var(--shady-white-color);
     margin-top: 50px;
+    opacity: .9;
 }
 #a-title{
     display: flex;
@@ -375,7 +376,45 @@ html{
     margin-top: -250px;
     position: absolute;
     background: transparent;
-    margin-right: -54px;
+    margin-right: -216px;
+    font-size: 2.8rem;
+    font-family: var(--primary-font);
+}
+.a-social{
+    position: relative;
+    width: 21%;
+    height: 19%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -102px;
+    margin-right: -287px;
+}
+.a-bg{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--shady-white-color);
+    height: 44%;
+    width: 14%;
+    background: transparent;
+    border-radius: 100px;
+    margin: 0px 15px 0px 13px;
+    opacity: .9;
+}
+.a-bg:hover{
+	background-color:#6a6a6a;
+}
+.a-icon{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 41%;
+    height: 56%;
+    background: transparent;
 }
 #a-content{
     display: flex;
@@ -384,24 +423,57 @@ html{
     position: absolute;
     background: transparent;
     width: 500px;
-    margin-right: -422px;
+    margin-right: -523px;
+    margin-top: 38px;
 }
 #a-button{
-    text-decoration:none;
-    width: 89px;
-    height: 35px;
+    text-decoration: none;
+    width: 135px;
+    height: 40px;
     font-family: 'PT Serif', serif;
-	font-size:14px;
+    font-size: 14px;
     font-weight: 500;
-	cursor:pointer;
+    cursor: pointer;
     border-radius: 23px;
-    color: white;
+    color: var(--shady-white-color);
     background-color: black;
-    border: 2px solid white;
+    border: 2px solid var(--shady-white-color);
     display: inline-block;
-    position: relative;
+    position: absolute;
     overflow: hidden;
     background: transparent;
-    margin-bottom: -150px;
+    margin-bottom: -215px;
+    margin-right: -146px;
+}
+#a-button:hover {
+	background-color:#313131;
+}
+#a-button a{
+    text-decoration:none;
+    background: none;
+    color: var(--shady-white-color);
+}
+.a-line{
+    border-left: 1px solid rgb(142, 142, 142);
+    height: 350px;
+    margin-left: -150px;
+    position: absolute;
+    opacity: .9;
+}
+#a-logo{
+    width: 399px;
+    height: 257px;
+    position: absolute;
+    margin-left: -772px;
+    margin-top: 17px;
+}
+.a-box{
+    border: 1px solid var(--shady-white-color);
+    position: absolute;
+    width: 27%;
+    height: 71%;
+    background-color: black;
+    margin-left: -824px;
+    margin-top: 19px;
 }
 
