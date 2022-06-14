@@ -73,6 +73,7 @@ https://www.fontshare.com/
 
 Mockups (Don't know Mockups visit site )
 https://placeit.net/?irgwc=1&clickid=0tvRKxRShxyIUbEz6q2WcQCNUkGW2jT1qRwjQM0&iradid=629767&irpid=2440653&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=&utm_campaign=af_impact_radius_2440653&utm_medium=affiliate&utm_source=impact_radius
+https://artboard.studio/        -- Custom mockup builder
 
 For photos other than unsplash
 1) https://pixabay.com/
@@ -90,25 +91,46 @@ https://pixabay.com/
 https://negativespace.photoshelter.com/index
 
 Design templates
+https://uidesigndaily.com/
 https://uigarage.net/search/?_sft_platform=web
 https://practicedesign.io/explore/designs
 https://dribbble.com/shots?color=FCFCFD
 https://www.awwwards.com/collections/
 https://cssnectar.com/css-gallery/nominees/categories/web-interactive/
 
+Illustrations
+https://storytale.io/
+https://iconscout.com/
+https://www.shapefest.com/
 
+PPT slides templates + Builder
+https://app.pitch.com/app/dashboard/8a13812f-ede6-417f-a6c5-b655ffea4abe
 
 
 ## Tools For Web developer
 
+Best website for frontend developer
+https://uiverse.io/
+https://omatsuri.app/
+
 Shadow Generator for elements
 https://shadows.brumm.af/
+
+Useful website to create animations
+https://animista.net/
+https://keyframes.app/
 
 Css Button Generator
 https://www.bestcssbuttongenerator.com/
 
 Css Button Hovering Ideas
 https://dev.to/webdeasy/top-20-css-buttons-animations-f41
+
+Best Neumorphism Generator
+https://neumorphism.io
+
+Best Glassmorphism Generator
+https://ui.glass/generator/
 
 Gradient color generator
 https://www.gradientmagic.com/
@@ -118,6 +140,7 @@ https://products.ls.graphics/mesh-gradients/
 
 CSS shape divide (Useful)
 https://www.shapedivider.app/
+https://getwaves.io/
 
 Custom SVG Icon animator
 https://www.svgator.com/
@@ -136,6 +159,25 @@ https://www.instagram.com/p/CYOaNi-FdoR/?utm_medium=copy_link
 
 AI image Upscaler
 https://zyro.com/in/tools/image-upscaler
+
+Lossless Image compressor
+https://compressor.io/
+
+Online mini Figma (Can design rough website templates)
+https://www.mockflow.com/
+
+Online website builder
+https://graphite.space/
+
+Free Html and Bootstrap Templates
+https://graygrids.com/
+https://mobirise.com/
+https://freehtml5.co/
+https://nicepage.com/
+https://tooplate.com/
+https://html5up.net/
+https://codemyui.com/
+
 
 
 Tip to download any yt video
