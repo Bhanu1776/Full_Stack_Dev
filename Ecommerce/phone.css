@@ -1,0 +1,72 @@
+.navbar{
+    flex-direction: column;
+    margin: auto;
+    
+}
+.d-logo{
+    text-align: center;
+    margin-left: 10px;
+}
+.navbar ul li{
+    margin: 12px 17px 12px 0px;
+}
+.navbar button{
+    margin: 0px;
+    width: 0px;
+    height: 0px;
+
+}
+
+
+
+
+.home{
+    display: flex;
+    flex: 0 1 auto;
+    margin-top: 80px;
+    /* width: 400px; */
+    height: 400px;
+    flex-shrink: 1;
+    max-height: 100px;
+    max-width: 688px;
+    max-height: 200px;
+    
+}
+#himage1{
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+#himage2{
+    width: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+#title{
+    margin: 5px;
+    padding: auto;
+    width: auto;
+    padding: 0px;
+    font-size: 1rem;
+    line-height: 30px;
+    
+}
+#h-content{
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    max-width: 100px;
+    padding: 0px;
+    font-size: .6rem;
+
+}
+#h-button{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container{
+    flex-direction: column;
+    
+}
