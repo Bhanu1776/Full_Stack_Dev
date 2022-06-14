@@ -1,0 +1,29 @@
+Steps to follow If we want to create website from scratch
+
+For CSS:
+    a) First thing to do is set CSS RESET i.e set those value which is going to apply throughout website
+    b) A good practice would be if we create custom CSS Variables ..
+    c) Main component 'div' initialize with #id and actual content initialize with .class
+    d) Before playing with any element first give border and then adjust accordingly ..
+    e) Always adjust margin in opposite direction with negative values to messy marginal space ..
+    f) For website responsiveness don't forget to add min, max: height and width, plus making padding and margin as less as screen width
+
+1) The first basic thing for a website is navigation bar, so start with navbar in header, Add up all the stuff which are required
+1) Then come up with section part and at the end footer .. Adding copyright is optional!
+3) Use utility classes for better efficiency, like use one specific class for whole font, aligning text to center etc
+4) Use min and max width, height
+5) Give cursor pointer to all buttons 
+6) Ship all images in git and export in html via link
+7) Add up user-select: none; wherever required and cursor: pointer; for buttons
+8) Code clean up like assigning the right variables and aligning the code by order ..
+
+*Alignment by order
+display
+position
+background(or any color related stuff)
+All font stuff by order
+animations or transitions stuff
+(width
+height
+padding
+margin)         These has to be present at the bottom !!
