@@ -13,7 +13,7 @@ For CSS:
 3) Use utility classes for better efficiency, like use one specific class for whole font, aligning text to center etc
 4) Use min and max width, height
 5) Give cursor pointer to all buttons 
-6) Ship all images in git and export in html via link
+6) Ship all images in git and export in html via link (Don't do this mistake as those images are token generated, This means it'll only work for specific time period only)
 7) Add up user-select: none; wherever required and cursor: pointer; for buttons
 8) Code clean up like assigning the right variables and aligning the code by order ..
 
