@@ -33,16 +33,19 @@
     
 }
 #himage1{
+    display: block;
     width: 200px;
     margin: 0px;
     padding: 0px;
 }
 #himage2{
+    display: block;
     width: 0px;
     margin: 0px;
     padding: 0px;
 }
 #title{
+    display: block;
     margin: 5px;
     padding: auto;
     width: auto;
@@ -52,7 +55,8 @@
     
 }
 #h-content{
-    margin: 0px;
+    display: block;
+    margin: 20vw;
     padding: 0px;
     width: auto;
     max-width: 100px;
@@ -61,6 +65,7 @@
 
 }
 #h-button{
+    display: block;
     margin: 0px;
     padding: 0px;
 }
