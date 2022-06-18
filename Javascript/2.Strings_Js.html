@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript | Strings and String Methods</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <div id="content"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nisi, quaerat corrupti quas, illum nobis tempore sequi cumque laboriosam magni expedita earum? Similique corrupti nam magni reprehenderit quia vero, reiciendis eius officiis doloremque ipsa?</p>
+    </div>
+
+    <script>                                                        // <!--! Good practice to write js script in body after whole html code ..
+                                                                    // That means Browser will load html first then javascript, by any means if js having any issues the webpage will display normally ..
+    var place = "Dombivli";                                         // <!--* 1st way to declare a string .. 
+    var string = 'thi"s';                                           // <!--* 2nd way to declare a string, Declaring in single quote helps to write double quotes under single quotes ..
+    var name = 'Bunny';                                         
+    var temp = `My name is ${name} and i stay in ${place}`;         // <!--* 3rd way to declare a string.. Do note: Those are inverted single quotes
+    console.log(temp);
+
+    // var len = name.length;
+    // console.log(`Length of name is ${len}`)
+
+    // <!--* Escape sequence in javascript 
+    console.log("Hello \\n world\nHarry\tand");
+
+    // <!--* String constructor in javascript ..
+    var y = new String("this");                                     // Another way to declare a string .. Advanced one!
+    console.log(y);
+
+    document.getElementById('content').innerHTML = '<h3>This is the heading inserted with the help of javascript</h3>'
+    
+    </script>
+</body>
+</html>
