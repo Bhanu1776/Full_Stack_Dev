@@ -110,6 +110,7 @@ https://app.pitch.com/app/dashboard/8a13812f-ede6-417f-a6c5-b655ffea4abe
 ## Tools For Web developer
 
 Best website for frontend developer
+https://10015.io/
 https://uiverse.io/
 https://omatsuri.app/
 
@@ -165,6 +166,9 @@ https://compressor.io/
 
 Online mini Figma (Can design rough website templates)
 https://www.mockflow.com/
+
+A team collaborative diagram maker
+https://miro.com/aq/ps/diagramming/?device=c&location=9301513
 
 Online website builder
 https://graphite.space/
