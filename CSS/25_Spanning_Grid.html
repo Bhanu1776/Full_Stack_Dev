@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Grid</title>
+
+    <!--* Basically spanning is giving multiple rows and cols space to one specific grid item -->
+    <style>
+    .container{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        /* grid-column-gap: 7rem;
+        grid-row-gap: 1rem; */
+        grid-gap: 1rem;
+    }
+    .box{
+        border: 2px solid black;
+        background-color: rgb(228, 188, 228);
+        padding: 23px;
+    }
+    .box:first-child{                           /* With the help of first child we are spanning grid items /*
+        /* grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3; */
+        grid-column: 1 / span 3;                /* <!--* Shortcut for spanning grid items ( (1)start from / span 3(till 3 box spaces)) */
+        grid-row: 1 / span 3;                   /* There's slight difference in shortend and normal property do check in webpage*/
+    }
+    .box:nth-child(2){                          /* <!--* Do note: This is the way to access specific same named child classes */
+        grid-column: 4 / span 2;               
+        grid-row: 2 / span 2;                  
+    }
+    .box:last-child{
+        grid-column: 1 / span 5;               
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Item-1</div>
+        <div class="box">Item-2</div>
+        <div class="box">Item-3</div>
+        <div class="box">Item-4</div>
+        <div class="box">Item-5</div>
+        <div class="box">Item-6</div>
+        <div class="box">Item-7</div>
+        <div class="box">Item-8</div>
+        <div class="box">Item-8</div>
+        <div class="box">Item-8</div>
+        <div class="box">Item-8</div>
+        <div class="box">Item-8</div>
+        <div class="box">Item-8</div>
+        <div class="box">Item-8</div>
+        <div class="box">Item-8</div>
+    </div>
+</body>
+</html>
