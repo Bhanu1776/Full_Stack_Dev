@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arrow Functions</title>
+</head>
+<body>
+    <div class="container">
+        This is arrow functions tutorial.
+    </div>
+
+    <script>
+
+    // <!--* Arrow function ... Useful AF
+
+    let greet = ()=> {                                          // <!--* Shortcut way to write a function
+        console.log('Good morning');
+    }
+
+    let greet1 = () => console.log('Good morning');
+    
+
+    let sum1 = (a, b)=>{
+        return a+b;
+    };
+
+    let sum2 = (a, b) => a+b;                                   // <!--! Best way to get return values form func in a simple way
+    let half = a => a/2;                                        // <!--* For passing single argument this is the simplest way!
+
+    
+
+    setTimeout(() => {                                          // Without giving func name we can also get the output..
+        console.log("We are inside settimeout");
+    }, 3000);
+
+    // <!--* LEXICAL THIS
+    let obj1={                                                  // An object is created 
+        greeting: "Good Morning",
+        names: ["Bunny", "Bhanu", "Osama", "Soham"],
+        speak(){                                                // speak is the method
+            this.names.forEach((student)=>{                     // <!--* 'this' keyword for arrow func can use parent variables unlike normal funcs
+                console.log(this.greeting + " Hello " + student);
+            });
+        }
+    }
+    obj1.speak();                                               // With the help of object we are supposed to call method ..
+    </script>
+</body>
+</html>
