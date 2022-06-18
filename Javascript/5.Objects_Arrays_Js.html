@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arrays and Objects</title>
+</head>
+<body>
+    <div class="container">Saxx</div>
+    <script>
+        let myVar = 34;
+        let myVar2 = "string";
+        let myVar3 = true;
+        let myVar4 = null;
+        let myVar5 = undefined;
+
+        // <!--* Objects in JavaScript aka called Dictionary in python..
+        let employee = {
+            name: "Bunny",
+            salary: 100,
+            Age: 19,
+            "Profession": "Full Stack developer",
+        }
+        console.log(employee);
+        console.log(employee.Age);                          // 1st way
+        console.log(employee['Profession']);                // Another way .. recommended
+
+        let random = [1, 2, 4, "Bunny", undefined];                 // First way to declare an array
+        console.log(random[3]);
+
+        let random1 = new Array(41, 2, 4, "Bhanu", undefined);      // Alternative way to declare an array
+        random1 = random1.sort();
+        console.log(random1);
+        random1.push("this is pushed");
+        console.log(random1.length);
+
+        let names = new Array(23);                          // This is a way to declare array with given size .. whole array will be empty undefined.. 
+        console.log(names);
+    </script>
+</body>
+</html>
