@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json Tutorial</title>
+</head>
+<body>
+    <div class="container">This is my container</div>
+
+    <!--* JSON ==> 'JavaScript Object Notation' It usually stores the data(objects) of a JavaScript in a string format -->
+
+    <script>
+
+        let jsonObj = {
+            name: "Bunny",
+            Quote: "SaxX",
+            friend: "Bhanu",
+            food: "Butter Chicken :)"
+        } 
+        console.log(jsonObj);
+
+        let myJsonStr = JSON.stringify(jsonObj);                        // <!--* stringify: Converts the objects into JSON string format
+        console.log(myJsonStr);
+
+        myJsonStr = myJsonStr.replace('Bunny', 'Funny');                // This is the way to replace any values in a JSON string ..
+        console.log(myJsonStr)
+
+        newJsonObj = JSON.parse(myJsonStr);                             // <!--* Parse: Converts the valid JSON string into object
+        console.log(newJsonObj)
+
+    </script>
+</body>
+</html>
