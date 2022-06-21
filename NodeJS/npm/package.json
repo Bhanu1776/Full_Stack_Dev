@@ -1,0 +1,20 @@
+{
+  "name": "temp",
+  "version": "1.0.0",
+  "description": "Just to understand how npm works",
+  "main": "7.npm_tut.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Saxx"
+  ],
+  "author": "Bunny",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
