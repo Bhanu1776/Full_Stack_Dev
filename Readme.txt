@@ -188,5 +188,8 @@ Use fontawesome extension to include icons seamlessly in css
 React icons extension to search and paste icons directly
 Use Google font extension to search and import directly from cmd palettes
 
+API's
+https://rapidapi.com/hub  ==> All useful API's can be found here
+
 Tip to download any yt video
 Just add pp after youtube in https link
