@@ -62,7 +62,9 @@ git checkout features
 # checkout is used to switch between the branches ..
 # Now if we make any commits that is going to be linked with features branch ..
 
-______________________________________________________________________________________________________________________
+git branch -d master(branch name)
+#This is the way to delete a branch in git.
+_____________________________________________________________________________________________________________________
 
 git merge features      ... merging happens with pull requests
 # This cmd will merge features branch with main branch i.e all the changes made in feature branch will now be linked with main branch so that now users can see my features in open-source repository
