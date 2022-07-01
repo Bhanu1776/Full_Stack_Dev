@@ -1,0 +1,98 @@
+//* ##### Mongodb Notes #####
+
+1) What is MongoDb?
+==> MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, 
+    MongoDB uses JSON-like documents with optional schemas.
+    Deafult port no for MongoDB is 27017.
+
+2) What is Mongod, Mongo and Mongosh
+==> Mongod: is the host process for the database.
+    Mongo: is the command line shell that connects to a specific instance of mongod. 
+    Mongosh: The new MongoDB Shell, mongosh, offers numerous advantages over the legacy mongo shell, such as: syntax highlighting,command history,Improved logging.
+
+3) If you are coming from the DBMS background, then following changes are there:-
+==> Database is referred to as a database.
+    Table is referred to as a collection.
+    Row is referred to as documents
+
+4) CRUD operation ==> Create, Read, Update, Delete
+
+5) What is Mongoose?
+==> Mongoose is a Node.js-based Object Data Modeling (ODM) library for MongoDB.
+
+
+
+//* Mongodb Commands 
+
+Show dbs ==> This will list out all the databases in the localhost
+db ==> This will show the current using database
+use bunny ==> Used to switch database named bunny
+show collections ==> This will list out all the collections(Tables) in the database.
+load("myScript.js") ==> To Run Javascript file.
+
+
+//* Inserting data in monogdb
+
+db.items.insertOne({name: "Bhanu", age: 18, place: "Dombivli"})
+==> To insert one object in database, where items is a collection.
+
+db.items.insertMany([{name: "Osama", age: 19, place: "Santacruz"},
+                     {name: "Farhan", age: 21, place: "Kurla"},
+                     {name: "Soham", age: 20, place: "Gaav"},
+                     {name: "Harsh", age: 20, place: "Khar", college: "XIE"}])
+==> To insert many objects we write in this way, where objects are created in an array.
+    As in third row we inserted an extra content college, this works fine in mongodb unlike mysql
+
+
+//* Searching for data in mongodb
+
+db.items.find()
+==> To list out the objects 
+
+db.items.find({age: 20})
+==> This query will return all the objects with age equal to 20.
+
+db.items.find({age: {$gt: 18}})
+==> gt is greater than .. This will list out all the documents whose age is greater than 18
+
+db.items.find({age: {$gte: 18}})
+==> gte is greater than equals to .. This will list out all the documents whose age is greater than equals too 18
+    In the same way, lte: is lesser than equals too .. and lt: is less than
+
+//* 'And' operator in mongodb (represented by (,))
+
+db.items.find({age: {$gt: 19}, college:"XIE"})
+==> And operator is (,)
+
+//* 'OR' operator in mongodb (represented by ($or))
+
+db.items.find({ 
+    $or:[{age: {$lte: 20}}, {rollno:{$gt: 5}}] 
+})
+==> Do note the syntax, its Tricky!
+
+//* Projection parameter 
+
+db.items.find({age: {$gt: 19}}, {name: 1, place:1})
+==> Projection is the parameter, where if we want to print extra details then add those parameters
+
+
+//* Deleting document from the mongodb
+
+db.items.deleteOne({age: 21})
+==> This will delete only one document from the multiple results ..
+
+db.items.deleteMany({age:20})
+==> This will delete all the documents whose age is 20
+
+
+//* Updating documents form the mongodb
+
+db.items.updateOne({name: "Osama"}, {$set: {name: "Osama Shaikh"}})
+==> Do note: In update operation two arguments has to be passed
+
+db.items.updateMany({name: "Bhanu"}, {$set: {name: "Bhanu Sunka"}})
+
+
+
+//* Mongodb Cheatsheet ==> https://www.mongodb.com/developer/products/mongodb/cheat-sheet/
