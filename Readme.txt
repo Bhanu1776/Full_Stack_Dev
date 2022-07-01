@@ -102,6 +102,14 @@ Illustrations
 https://storytale.io/
 https://iconscout.com/
 https://www.shapefest.com/
+https://drawkit.com/
+https://undraw.co/illustrations
+https://www.opendoodles.com/
+https://www.glazestock.com/
+https://www.humaaans.com/
+https://icons8.com/illustrations
+https://weareskribbl.com/
+https://ui8.net/category/illustrations
 
 PPT slides templates + Builder
 https://app.pitch.com/app/dashboard/8a13812f-ede6-417f-a6c5-b655ffea4abe
