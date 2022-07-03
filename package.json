@@ -3,6 +3,8 @@
     "nodemon": "^2.0.18"
   },
   "dependencies": {
-    "mongoose": "^6.4.1"
+    "body-parser": "^1.20.0",
+    "mongoose": "^6.4.1",
+    "pug": "^3.0.2"
   }
 }
