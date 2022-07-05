@@ -1,5 +1,7 @@
 import './App.css';                             //* This is the way to import css files in js
+import About from './components/About';
 import Navbar from './components/Navbar.js'     //* This is the way to import components in react
+// import TextForm from './components/TextForm';
 
 // From this App.js all components going to load, In short browser will load according to this file
 
@@ -9,7 +11,12 @@ import Navbar from './components/Navbar.js'     //* This is the way to import co
 //* Naming conventions in JSX.
 // ==> You have to write "className" instead of "class" as class is the reserved keyword in Javascript, In place of "for" you have to use "htmlFor"
 // JS content has to be written under curly braces{}
-// In JSX closing the tags is very imp 
+// In JSX closing the tags is very imp, which aren't closed by default
+// Do check console frequently in browser to debug errors..
+
+//* Adding components in JS
+// First thing, Import component 
+// Include component in App func
 
 
 function App() {                                //* React uses the Function-based components  
@@ -20,6 +27,8 @@ function App() {                                //* React uses the Function-base
       
       <Navbar title="TextUtils" aboutText="AboutUs"/>
 
+      {/* <TextForm/> */}
+      <About/>
     </>
   );
 }
