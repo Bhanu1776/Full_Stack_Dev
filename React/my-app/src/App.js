@@ -1,7 +1,7 @@
 import './App.css';                             //* This is the way to import css files in js
-import About from './components/About';
 import Navbar from './components/Navbar.js'     //* This is the way to import components in react
-// import TextForm from './components/TextForm';
+import TextForm from './components/TextForm';
+// import About from './components/About';
 
 // From this App.js all components going to load, In short browser will load according to this file
 
@@ -27,8 +27,8 @@ function App() {                                //* React uses the Function-base
       
       <Navbar title="TextUtils" aboutText="AboutUs"/>
 
-      {/* <TextForm/> */}
-      <About/>
+      {/* <About/> */}
+      <TextForm/>
     </>
   );
 }
