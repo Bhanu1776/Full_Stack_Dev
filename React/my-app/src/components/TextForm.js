@@ -12,7 +12,7 @@
 
 import React, { useState } from 'react'         //* Importing Hooks, useState is a predefined Hook
 
-export default function TextForm() {
+export default function TextForm(props) {
 
   const [Text, setText] = useState('');                    // setText is a state variable which is used to update the Text when the state changes  // Array destructuring..
   // Text = "Wassup";                                       // We cannot update Text in this way, Wrong way to change the state!
@@ -59,10 +59,10 @@ const handleExtraSpaces = () => {
   return (
 
     <>
-      <div className="container my-5">
+      <div className="container my-5" style={{color: props.mode==='dark'?'white':'#042743'}}>
         <div className="mb-8">
           <label htmlFor="exampleFormControlTextarea1" className="form-label"> Enter Text Here!</label>
-          <textarea className="form-control" value={Text} onChange={handleOnChange} placeholder="Hello Stranger!" id="myBox" rows="8"></textarea>
+          <textarea className="form-control" value={Text} placeholder="Hello Stranger!" onChange={handleOnChange} style={{backgroundColor: props.mode==='dark'?'grey':'white', color: props.mode==='dark'?'white':'#042743'}} id="myBox" rows="8"></textarea>
         </div>
         <button type="button" className="btn btn-primary mx-1 my-2" onClick={handleOnClick} >Uppercase</button>
         <button type="button" className="btn btn-primary mx-1 my-2" onClick={handleLoClick} >Lowercase</button>
@@ -71,14 +71,13 @@ const handleExtraSpaces = () => {
         <button className="btn btn-success mx-1" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
         <button type="button" className="btn btn-danger mx-1 my-2" onClick={handleClearClick} >Clear Text</button>
       </div>
-      <div className="container my-3" >
+      <div className="container my-3" style={{color: props.mode==='dark'?'white':'#042743'}}>
         <h2>Your text summary</h2>
         <p>{Text.split(" ").length} words and {Text.length} characters</p>
         <p>{0.008 * Text.split(" ").length} Minutes to read</p>
 
         <h2>Preview</h2>
-        <p>{Text}</p>
-
+        <p>{Text.length>0?Text:"Enter something in the text box above to preview it here"}</p>          {/* If the no text is inserted in textArea then, This msg will be shown */}
       </div>
     </>
   )

@@ -2,6 +2,7 @@ import './App.css';                             //* This is the way to import cs
 import Navbar from './components/Navbar.js'     //* This is the way to import components in react
 import TextForm from './components/TextForm';
 // import About from './components/About';
+import React, { useState } from 'react';        // Using hooks in main app.js
 
 // From this App.js all components going to load, In short browser will load according to this file
 
@@ -19,16 +20,27 @@ import TextForm from './components/TextForm';
 // Include component in App func
 
 
-function App() {                                //* React uses the Function-based components  
-  return (                                      // Html and js should be return under return func!! Content written under return is known as jsx ..
-    <>                                          {/* Html code has to be written under these brackets only! JSX fragment feature */}
-      
-                                                {/*//* This is the way to write comments in JSX!! Pain 😤*/}
-      
-      <Navbar title="TextUtils" aboutText="AboutUs"/>
+function App() {
+
+  const [mode, setMode] = useState('light');                    // Whether dark mode is enabled or not, By default is Light mode
+
+  const toggleMode = ()=>{
+    if(mode === 'light'){                                       // When we toggle the switch, Light mode becomes Dark mode and vice-versa
+      setMode('dark');
+      document.body.style.backgroundColor = '#042743';          // This way we can change the body bg color
+    }
+    else{
+      setMode('light');
+      document.body.style.backgroundColor = 'white';
+    }
+  }
+
+  return (
+    <>
+      <Navbar title="TextUtils" aboutText="AboutUs" mode={mode} toggleMode={toggleMode}/>
 
       {/* <About/> */}
-      <TextForm/>
+      <TextForm mode={mode}/>
     </>
   );
 }
