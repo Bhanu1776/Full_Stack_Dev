@@ -4,6 +4,7 @@
   },
   "dependencies": {
     "body-parser": "^1.20.0",
+    "gh-pages": "^4.0.0",
     "mongoose": "^6.4.1",
     "node": "^16.15.1",
     "pug": "^3.0.2",
