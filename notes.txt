@@ -13,7 +13,5 @@
 7) To start the server set specific port number and add respective code for that ..
 8) Create a root(Home)(/) Endpoint 
 
-
-  
   
 //* pug documentation ==> https://pugjs.org/api/getting-started.html
