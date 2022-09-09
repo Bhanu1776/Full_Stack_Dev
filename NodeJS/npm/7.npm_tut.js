@@ -1,5 +1,5 @@
 console.log('All about Node package manager');
-// NPM is the package manager for JS, as like pip for python .. NPM helps us to manage the packages in NodeJs. 
+// NPM is the package manager for JS, as like pip for python .. NPM helps us to manage the packages in NodeJs.
 
 //* NPM
 // To know the npm version ==> npm --version
@@ -30,3 +30,10 @@ console.log('All about Node package manager');
 //! Major.Minor.Patches
 // 0.20.2       -- This version can be identified by a minor release hotfix with patches 
 // 1.1.0        -- This is major release 
+
+
+//! Troubleshooting 
+//* IF any permission error occurs while installing any npm package 
+// Simply, reach out to this location (/usr/local/lib/) and change the permission of node-modules folder
+// Type chmod 777 node-modules
+// Thats it! Now you are good to GO!!
