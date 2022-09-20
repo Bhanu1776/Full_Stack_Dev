@@ -1,4 +1,4 @@
-//* All about Object.create &&  __proto
+//* All about Object.create &&  __proto__
 
 const obj1 = {
     key1: "value1",
@@ -11,7 +11,7 @@ const obj1 = {
 // Both __proto__ & [[prototype]] are exactly same!!
 
 
-// But prototype is completely different fron __proto__
+// But prototype is completely different from __proto__
 
 
 // 1st way to create empty object
