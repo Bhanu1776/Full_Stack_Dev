@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Practice</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        li {
+            list-style: none;
+            margin: 10px;
+            text-decoration: none;
+
+        }
+
+        button {
+            background-color: rgb(255, 225, 0);
+            border: 1px solid #000;
+            padding: 15px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>Current Page</li>
+            <li>Another Page</li>
+            <li>Another Page</li>
+            <li>Another Page</li>
+        </ul>
+    </nav>
+    <h1>Practice</h1>
+
+    <button> Hello </button>
+    <!-- <button> Press me! </button>
+    <button> Don't Press here </button> -->
+
+    <script>
+
+        // let arr = [1, 2, 4, 5, 3]
+        // let i = prompt("Enter the number: ");
+        // i = Number.parseInt(i);
+        // arr.push(i)
+        // console.log(arr);
+
+        // let arr = [1, 2, 3, 4, 5, 6]
+        // let i;
+        // while (i != 0) {
+        //     i = prompt("Enter the number: ")
+        //     i = Number.parseInt(i)
+        //     arr.push(i)
+        //     console.log(arr);
+        // }
+        // alert("The End!!")
+
+        // let name = prompt("What is your name?", "Guest");
+        // console.log(name);
+
+        // let deletePost = confirm("Do you really want to delete this post?");
+
+        // let age = prompt("Enter your age: ")
+        // if (age > 18) {
+        //     alert("You can drive");
+        //     location.href = "https://www.google.com/"
+        // }
+        // else {
+        //     alert("You cannot drive");
+        //     console.error("Please enter a valid age");
+        //     let ask = confirm("You wanna enter again?")
+        //     if (ask) {
+        //         age = prompt("Enter your age: ")
+        //     }
+        //     else {
+        //         alert("OK")
+        //     }
+        // }
+
+        // let color = prompt("Enter any one color red or blue: ");
+        // color = color.toLowerCase();
+        // console.log(color);
+
+        // if (color == 'red') {
+        //     document.body.style.background = 'red';
+        // }
+        // else if (color == 'blue') {
+        //     document.body.style.background = 'cyan';
+        // }
+        // else {
+        //     document.writeln('<h1> Hellooooo <h2>');
+        // }
+
+        // console.log("hello Bunny");
+
+        // document.writeln("<h1> Helloooooo <h1>")
+
+        // document.getElementsByTagName('ul')[0].firstElementChild.style.color = 'red';
+        // document.getElementsByTagName('ul')[0].lastElementChild.style.color = 'green';
+
+        // Array.from(document.getElementsByTagName('li')).forEach((element) => {
+        //     element.style.background = 'cyan';
+        // })
+
+        // const users = [
+        //     { firstName: "akshay", lastName: "saini", age: 26 },
+        //     { firstName: "Bhanu", lastName: "sunka", age: 75 },
+        //     { firstName: "elon", lastName: "musk", age: 50 },
+        //     { firstName: "deepika", lastName: "saxsena", age: 26 },
+        // ];
+
+        // //* Filter and map array method combined example .. Interesting isn't it !?
+        // // Find out First name of all the people whose age is less than 30
+
+        // const output = users.filter((x) => x.age < 30).map((x) => x.firstName);             // Here the map func will work on the output of filter func !!
+        // console.log(output);
+
+        let button1 = document.getElementsByTagName("button")
+        let body = document.querySelector("body");
+
+        button1.addEventListener("click", () => {
+            console.log("Button Clicked!");
+        })
+
+    </script>
+</body>
+
+</html>
