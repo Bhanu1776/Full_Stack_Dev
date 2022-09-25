@@ -14,6 +14,12 @@ git reset HEAD~
 # Now the head will point to previous commit
 # And the modified file be in unstaging area .. we can simply restore changes by -> git restore bunny.txt
 
+git reset --soft HEAD~
+# This will delete the previous commit but the files will be in staging area (i.e the files will be safe even after deleting commit)
+
+git reset --hard HEAD~
+# This will delete the previous commit with all the files.. (Use Carefully!!)
+
 git commit --amend
 # This will allow me to change my previous commit
 
@@ -26,6 +32,9 @@ ________________________________________________________________________________
 
 git stash
 # This cmd will push all the changs in backstage ..
+
+git stash show
+# To see the files which are stored in stash 
 
 git stash pop
 # This cmd will pull all the changs back to stagged area ..
