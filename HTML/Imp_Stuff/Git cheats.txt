@@ -42,6 +42,15 @@ git stash pop
 git stash clear
 # Now all the changes which were present in backstage will be cleared
 
+______________________________________________________________________________________________________________________
+
+# How to merge specific commit from any branch to master 
+1) First checkout to the branch where that commit is present ..
+2) Then, Simply copy the commit code by --> git log --oneline
+3) Once commit is copied, then switch to master branch (V.IMP!!)
+4) Then, git cherry-pick 'commit-code'          // No quotes!
+5) Once done, check git status or else force push to master branch!!
+
 _______________________________________________________________________________________________________________________
 
 git remote add origin 'https link of that repository'
