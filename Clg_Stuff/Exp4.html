@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhanu</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./Exp4js.js"></script>
+</head>
+
+<body>
+    <h1 style="text-align: center;">XIE REGISTRATION FORM</h1>
+    <hr>
+    <div>
+
+        <form name="xieform" onsubmit="return ValidateForm()" method="post">
+
+            <p>Full Name: <input type="text" size="25" placeholder="First Name" name="FName">
+                <input type="text" size="25" placeholder="Middle Name" name="MName">
+                <input type="text" size="25" placeholder="Last Name" name="LName">
+            </p> <br>
+
+            <p>Address: <textarea cols="65" name="Address"> </textarea></p> <br>
+
+            <p>E-mail Address: <input type="text" size="40" name="Email" placeholder="Enter your Email"></p> <br>
+
+            <p>Password: <input type="password" size="40" name="Password" placeholder="Enter the password"></p> <br>
+
+            <p>Mobile No.: <input type="text" size="20" name="Mobile" placeholder="Enter your Mobile No."></p> <br>
+
+            <p>
+                Select your Course:
+                <select type="text" value="-1" name="Subject">
+                    <option value="-1" checked>Select Branch</option>
+                    <option value="1">Computer Science</option>
+                    <option value="2">Information Technology</option>
+                    <option value="3">Electronics and Telecommunication</option>
+                </select>
+            </p> <br>
+            <input type="submit" value="Submit" name="submit" style="background-color:rgb(219, 148, 250)">
+            <input type="reset" value="Reset" name="reset" style="background-color:rgb(253, 236, 150)">
+            </p>
+
+        </form>
+    </div>
+</body>
+
+</html>

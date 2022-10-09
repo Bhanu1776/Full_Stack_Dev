@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  align-content: center;
+  align-items: center;
+  background-image: url("C:/Users/ASUS/Downloads/xieform.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  background-image: linear-gradient(to right, #fef88d, #c767fe);
+  padding: 20px;
+  margin: 0px;
+  align-content: center;
+}
+
+hr {
+  border: 2px rgb(254, 0, 0) double;
+  margin: 0px;
+}
+
+form {
+  margin: 0 auto;
+  width: 1100px;
+  font-size: 1.1rem;
+  background: rgba(221, 236, 238, 0.537);
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px black solid;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+p {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+select,
+input,
+textarea {
+  font-size: 1.1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode";
+}
