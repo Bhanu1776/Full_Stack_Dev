@@ -1,0 +1,7 @@
+Errors faced in Freelansters website
+
+1) HTML Forms mei submit button has to be input type=submit to ignore onSubmit method not working!!
+2) To use cookie parser don't forget to import package in main file of the backend(App.js)
+3) For Forms in HTML, A good practice would be keep same NAME for type and name attribute and the name attribute is fucking imp!!
+4) label ka htmlFor ka value same rahena chaiyeh input ke id ka value!! (htmlFor="same" && id="same")
+5) Never ever directly style elements like (p, h1, a, img) instead of this give id or class to each and every element. -- Just to be safe from fucking conflicts css conflicts
