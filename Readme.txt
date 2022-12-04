@@ -151,6 +151,12 @@ CSS shape divide (Useful)
 https://www.shapedivider.app/
 https://getwaves.io/
 
+Pure CSS Animated Blobz
+https://toruskit.com/tools/blobz/
+
+Cool CSS Loader and spinners
+https://codepen.io/vineethtrv/pen/NWxZqMM
+
 Custom SVG Icon animator
 https://www.svgator.com/
 
