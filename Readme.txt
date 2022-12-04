@@ -25,6 +25,9 @@ Top Youtube Channel to learn Web Development
 
 ## Useful Repository for a full stack developer
 
+Web Development Resources(Best)
+https://github.com/markodenic/web-development-resources
+
 https://github.com/kamranahmedse/developer-roadmap
 Repo.. Everything about Full Stack Development..
 
