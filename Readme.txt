@@ -1,4 +1,4 @@
-SOME USEFULL Stuff FOR WEB DEVELOPMENT ..
+SOME USEFUL Stuff FOR WEB DEVELOPMENT ..
 
 Full Stack Developer Roadmap :)
 1) Html,DOM
@@ -202,6 +202,9 @@ Use Google font extension to search and import directly from cmd palettes
 
 API's
 https://rapidapi.com/hub  ==> All useful API's can be found here
+https://dummyapi.io/ ==> A api for everything(real users, fake comments and posts)
+https://randomuser.me/ ==> API for fake user data
+https://www.sejda.com/developers ==> A API to have pdf tools in your website
 
 Tip to download any yt video
 Just add pp after youtube in https link
