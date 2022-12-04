@@ -1,4 +1,4 @@
-SOME USEFUL Stuff FOR WEB DEVELOPMENT ..
+SOME USEFUL Stuff FOR WEB DEVELOPMENT with Ultimate Resources..
 
 Full Stack Developer Roadmap :)
 1) Html,DOM
@@ -6,7 +6,7 @@ Full Stack Developer Roadmap :)
 3) Javascript
 4) React
 5) Node.js
-6) MYSQL
+6) Express
 7) MongoDB
 8) Passed Interview 
 9) Experience at your first Job ..
@@ -14,12 +14,13 @@ Full Stack Developer Roadmap :)
 
 
 Top Youtube Channel to learn Web Development 
-1) Code with Harry 
+1) Thapa Technical
 2) Traversy Media
 3) Web Bos
 4) Programming with Mosh 
 5) Freecodecamp
 6) Dev Ed
+7) Code with Harry 
 
 
 ## Useful Repository for a full stack developer
@@ -156,6 +157,9 @@ https://toruskit.com/tools/blobz/
 
 Cool CSS Loader and spinners
 https://codepen.io/vineethtrv/pen/NWxZqMM
+
+Cool Modal animations
+https://codepen.io/designcouch/pen/obvKxm
 
 Custom SVG Icon animator
 https://www.svgator.com/
