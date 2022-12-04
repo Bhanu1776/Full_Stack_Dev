@@ -155,6 +155,9 @@ https://getwaves.io/
 Pure CSS Animated Blobz
 https://toruskit.com/tools/blobz/
 
+Cool SVG Pattern Generator(useful)
+https://fffuel.co/
+
 Cool CSS Loader and spinners
 https://codepen.io/vineethtrv/pen/NWxZqMM
 
