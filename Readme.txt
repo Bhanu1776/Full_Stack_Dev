@@ -167,6 +167,9 @@ https://codepen.io/designcouch/pen/obvKxm
 Custom SVG Icon animator
 https://www.svgator.com/
 
+Image Optimizer tools (cleanups, remove bg, relight, image UpScaler)
+https://clipdrop.co/#:~:text=Try%20for%20free-,Tools,-Cleanup
+
 Flexbox Tutor
 https://the-echoplex.net/flexyboxes/
 
@@ -218,6 +221,9 @@ https://rapidapi.com/hub  ==> All useful API's can be found here
 https://dummyapi.io/ ==> A api for everything(real users, fake comments and posts)
 https://randomuser.me/ ==> API for fake user data
 https://www.sejda.com/developers ==> A API to have pdf tools in your website
+
+Every command illustrator
+https://explainshell.com/
 
 Tip to download any yt video
 Just add pp after youtube in https link
