@@ -49,6 +49,9 @@ https://www.instagram.com/p/CZ4bhY4A2ei/?utm_medium=copy_link
 Very Useful Toolkit For Emmet
 https://github.com/emmetio/emmet
 
+For every Domain, Awesome Design Patterns 
+https://github.com/DovAmir/awesome-design-patterns
+
 ## Resources
 
 For icons other than flaticons
@@ -144,6 +147,9 @@ https://neumorphism.io
 
 Best Glassmorphism Generator
 https://ui.glass/generator/
+
+Design resources
+https://uihut.com/
 
 Gradient color generator
 https://www.gradientmagic.com/
