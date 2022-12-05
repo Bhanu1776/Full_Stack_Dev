@@ -152,4 +152,6 @@ Add three hyphen(-) to create horizontal line
 
 ---
 
+[**Markdown Cheatsheet**](https://overapi.com/static/cs/Markdown.pdf "Click to download CheatSheet")
+
 ## That's it! kthnxbye 🚀
