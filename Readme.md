@@ -1,4 +1,4 @@
-# Some Useful Stuff for Web Development with Ultimate Resources
+# Ultimate Web Development Resources
 
 ## Full Stack Developer RoadMap
 
@@ -136,8 +136,6 @@ PPT slides templates + Builder
 
 ---
 
-</br>
-
 ## Tools For Web developer
 
 Best All-round websites for frontend developer:  
@@ -245,8 +243,6 @@ VS Code Shortcuts ..
 
 ---
 
-</br>
-
 ## API's
 
 <https://rapidapi.com/hub>  ==> All useful API's can be found here  
@@ -255,8 +251,6 @@ VS Code Shortcuts ..
 <https://www.sejda.com/developers> ==> A API to have pdf tools in your website  
 
 ---
-
-</br>
 
 ## Tip to download any yt video  
 
