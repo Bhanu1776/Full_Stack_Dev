@@ -6,3 +6,5 @@ READ readme.md Carefully !!
 https://www.instagram.com/p/CSWV836lwtK/?utm_medium=copy_link
 CSS Insert Property 
 
+https://devhints.io/sass
+Sass Cheatsheet
