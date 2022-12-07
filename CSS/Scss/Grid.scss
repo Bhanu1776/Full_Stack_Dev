@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+//* Grid Containers 
+.container{
+    max-width: 144rem;
+    min-height: 50rem;
+    border: .4rem solid red;
+    margin: 5rem auto;
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);      // Created three columns with 1-fractional unit, fr is responsive don't use px or % !!  //* 1fr == 225px
+                                                // For equivalent sizes on all grids use repeat method..
+    gap: 1rem 2rem;                             // gap shortHand Property ==> (row,col)
+
+    grid-auto-rows: 10rem;                      // This is used when we want to set a size for all rows(including chrome created rows too!)
+
+    //* Variable columns
+    // auto-fit and auto-fill
+    // grid-template-columns: repeat(auto-fit, 20rem);      // Auto fit will create required columns in that specific width, As we can see i haven't specified no.of cols.
+    // grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));    // For Variable width of grids
+
+    // grid-auto-flow: dense;                   // Dense-pack is an algorithm, used to adjust grids automatically. 
+                                                // i.e IT'll fill all the empty spaces in that container with items
+                                                // For better understanding refer this video ==> https: //youtu.be/8s2HuHB9tTs?t=2566
+
+    //* Positioning for ITEMS
+    justify-items: center;                      //* X-axis (Horizontal) .. By default value is 'stretch'
+    align-items: center;                        //* Y-axis (Vertically)
+    // place-items: end center;                 // ShortHand property //* works as (Y,X)(vertical,Horizontal)
+    place-items: center;                        // For both X-Y center .. USEFUL AF!
+
+    //* Positioning for CONTENT
+    justify-content: space-between;
+    align-content: center;
+    place-content: center;                      //* Content works for all elements(ITEMS) in the container 
+
+
+}
+
+//* Grid Items
+.item{
+    font-size: 1.6rem;
+    background: #487eb0;
+    color: #fff;
+    padding: 1rem;
+}
+
+.item1{
+    // grid-column-start: 1;                    // Now, Grid 1 will acquire other grid space(as mentioned)
+    // grid-column-end: 3;                      // In this case, Grid 1 will acquire 2 grid space(3 is lines which will display in chrome)
+    // grid-column: 1/3;                        // ShortHand Property
+    grid-column: 1/-1;                          // Useful shortHand Property (Uncomment and see!)
+    // grid-column: span 2;                     // Another shortHand property (Here start will be from 1 only) and will acquire 2 blocks of space as mentioned..
+    
+
+    // grid-row-start: 1;                       // Same with Row!
+    // grid-row-end: 3;
+    grid-row: 1/3;
+
+    // align-self: start;                       // This works for specific item 
+    // justify-self: end;
+    place-self: center;
+
+
+}
