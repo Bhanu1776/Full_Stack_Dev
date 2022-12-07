@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+body {
+    font-size: 2rem;
+    min-height: 100vh;
+    background-color: #444;
+    color: white;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);     //? Fixed size col would be 40px, 48px, 56px, 64px, 72px, 80px
+    grid-template-rows: 8rem 5fr 15rem;
+    gap: .4rem;                                 //? For a good practice, gap should be between 0 to 4px
+    grid-template-areas:                        //* Best way to play with grids
+        "header header "
+        "sidebar content "
+        "footer footer ";
+
+    * {                                         // All elements inside body!                      
+        padding: 1.6rem;
+        border: .2rem solid #bbb;
+    }
+}
+
+
+header {
+    grid-area: header;                          // Assigning the names
+    grid-column: 1/-1;
+}
+
+aside {
+    grid-area: sidebar;
+    grid-column: 1/4;
+}
+
+main {
+    grid-area: content;
+    grid-column: 4/-1;
+}
+
+footer {
+    grid-area: footer;
+    grid-column: 1/-1;
+}
+
+@media (max-width: 600px) {                     // Width size for mobile phones
+    body {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 8rem 1fr 20rem;
+        grid-template-areas:
+            "header "
+            "content "
+            "footer";
+    }
+    main {
+        grid-column: 1/-1;
+    }
+    aside{
+        display: none;
+    }
+}
+
+//* Practical Guide for Grids ==> https://www.instagram.com/p/ClfQrjtP5W2/
+//* CSS Grid Generator ==> https://cssgrid-generator.netlify.app/

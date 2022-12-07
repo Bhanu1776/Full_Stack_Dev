@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+body {
+  font-size: 2rem;
+  min-height: 100vh;
+  background-color: #444;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 8rem 5fr 15rem;
+  gap: 0.4rem;
+  grid-template-areas: "header header " "sidebar content " "footer footer ";
+}
+body * {
+  padding: 1.6rem;
+  border: 0.2rem solid #bbb;
+}
+
+header {
+  grid-area: header;
+  grid-column: 1/-1;
+}
+
+aside {
+  grid-area: sidebar;
+  grid-column: 1/4;
+}
+
+main {
+  grid-area: content;
+  grid-column: 4/-1;
+}
+
+footer {
+  grid-area: footer;
+  grid-column: 1/-1;
+}
+
+@media (max-width: 600px) {
+  body {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 8rem 1fr 20rem;
+    grid-template-areas: "header " "content " "footer";
+  }
+  main {
+    grid-column: 1/-1;
+  }
+  aside {
+    display: none;
+  }
+}/*# sourceMappingURL=Grid2.css.map */
