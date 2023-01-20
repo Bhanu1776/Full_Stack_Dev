@@ -3,7 +3,7 @@
     "nodemon": "^2.0.18"
   },
   "dependencies": {
-    "body-parser": "^1.20.0" ,
+    "body-parser": "^1.20.0",
     "gh-pages": "^4.0.0",
     "mongoose": "^6.4.6" ,
     "node": "^16.15.1",
