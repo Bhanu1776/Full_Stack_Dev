@@ -69,7 +69,7 @@ For icons other than FlatIcons:
 <https://css.gg>  
 <https://remixicon.com>  
 <https://akveo.github.io/eva-icons/#>  
-<https://www.instagram.com/p/CKmHESpDcUu/?utm_medium=copy_link>(More websites)  
+<https://www.instagram.com/p/CKmHESpDcUu/?utm_medium=copy_link> (More websites)  
 
 Animated icons:  
 <https://lordicon.com/>  
@@ -90,7 +90,7 @@ For photos other than unsplash:
 <https://pixabay.com/>  
 <https://stock.adobe.com/in/>  
 
-For PNG Images
+For PNG Images  
 <https://purepng.com/>  
 <https://favpng.com/>  
 <https://www.cleanpng.com/>  
