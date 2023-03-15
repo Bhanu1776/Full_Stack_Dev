@@ -156,6 +156,9 @@ Css Button Generator
 Css Button Hovering Ideas  
 <https://dev.to/webdeasy/top-20-css-buttons-animations-f41>
 
+Resources related to cards 
+<https://freefrontend.com>
+
 Best Neumorphism Generator  
 <https://neumorphism.io>
 
